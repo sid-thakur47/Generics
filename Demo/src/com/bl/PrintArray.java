@@ -10,9 +10,9 @@ public class PrintArray<E> {
         new PrintArray<Double>().printArray( doubleArray );
         new PrintArray<Character>().printArray( charArray );
     }
-    public void printArray(E[] chars) {
-        for (E c : chars) {
-            System.out.println( c );
+    public void printArray(E[] array) {
+        for (E result : array) {
+            System.out.println( result );
         }
     }
 }
